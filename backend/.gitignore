@@ -1,0 +1,18 @@
+# Virtual Environment
+trustmed_env/
+venv/
+env/
+ENV/
+*.pyc
+
+# Environment Variables
+.env
+
+# Database
+chroma_db/
+
+# Python Cache
+__pycache__/
+
+# macOS
+.DS_Store

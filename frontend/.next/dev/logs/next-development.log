@@ -1,0 +1,6 @@
+[00:00:02.155] Server  LOG      ✓ Ready in 1530ms
+[00:00:11.917] Server  LOG      ○ Compiling / ...
+[00:00:30.647] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:36.206] Server  LOG      ○ Compiling /chat ...
+[00:00:38.487] Server  ERROR   (node:43571) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
