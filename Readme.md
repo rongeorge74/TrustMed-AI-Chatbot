@@ -155,3 +155,5 @@ gcloud run deploy trustmed-frontend \
 ## Logging and Troubleshooting
 
 | **Backend Logs** | VM Instance | `sudo journalctl -u trustmed-backend -f` | 
+Frontend specific Readme file is present in /frontend folder
+Backend Model implementation specific Readme file is present in /backend folder
