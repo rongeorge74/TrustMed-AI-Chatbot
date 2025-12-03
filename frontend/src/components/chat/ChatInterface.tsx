@@ -49,7 +49,7 @@ interface Message {
   isTyping?: boolean;
   confidence?: number;
   intent?: string;
-  responseTime?: number;
+  // responseTime?: number;
   sourcesCount?: number;
 }
 
@@ -150,7 +150,7 @@ export function ChatInterface({ initialMessage }: ChatInterfaceProps) {
               sources: response.links,
               confidence: response.confidence_score,
               intent: response.query_intent,
-              responseTime: response.response_time_ms,
+              // responseTime: response.response_time_ms,
               sourcesCount: response.sources_count,
               isTyping: false,
             }
@@ -478,7 +478,7 @@ export function ChatInterface({ initialMessage }: ChatInterfaceProps) {
                           }}
                         />
                       )}
-                      {message.responseTime !== undefined && (
+                      {/* {message.responseTime !== undefined && (
                         <Chip
                           label={`${(message.responseTime / 1000).toFixed(1)}s`}
                           size="small"
@@ -495,7 +495,7 @@ export function ChatInterface({ initialMessage }: ChatInterfaceProps) {
                             },
                           }}
                         />
-                      )}
+                      )} */}
                     </Box>
                   )}
                   

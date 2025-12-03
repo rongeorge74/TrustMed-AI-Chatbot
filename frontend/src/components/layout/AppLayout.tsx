@@ -415,7 +415,7 @@ export function AppLayout({ children }: AppLayoutProps) {
             fontSize: '0.8rem',
           }}
         >
-          MAYO CLINIC NEURAL DATABASE
+          VERIFIED MEDICAL DATABASES
         </Typography>
       </Box>
     </Box>
