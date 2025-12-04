@@ -324,7 +324,7 @@ export default function DiseaseDetailPage() {
                 {disease.overview}
               </Typography>
             </Paper>
-          </Grid>
+          </Box>
         )}
 
         {/* Symptoms */}
@@ -356,7 +356,7 @@ export default function DiseaseDetailPage() {
                 {disease.symptoms}
               </Typography>
             </Paper>
-          </Grid>
+          </Box>
         )}
 
         {/* Causes */}
